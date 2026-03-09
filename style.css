@@ -85,3 +85,11 @@ h1 {
     display: none;
 }
 
+@media screen and (max-width:600px){
+    .box{
+        background-color:transparent;
+        
+    }
+
+}
+    
