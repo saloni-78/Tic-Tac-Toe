@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-color:#FFFBF1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+h1 {
+    margin:20px;
+    font-family: "Times New Roman", Times, serif;
+    color:#E36A6A ;
+    font-size:3rem ;
+}
+
+.box{
+    background-color:#FFF2D0 ;
+    height:70vh;
+    width:70vw;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.game{
+    height:70%;
+    width:70%;
+    display:grid;
+    grid-template-columns:repeat(3,95px) ; 
+    grid-template-rows:repeat(3,95px) ; 
+    justify-content: center;
+    align-content: center;
+    gap:3px;
+}
+
+.square{
+   background-color:#FFB2B2;
+   border-radius:15px;
+   border:none;
+   font-size:3em;
+}
+
+.reset{
+    margin:20px;
+    padding:10px;
+    border-radius:30px;
+    border:none;
+    height:50px;
+    width:120px;
+    background-color:#FFB2B2 ;
+    font-family: "Times New Roman", Times, serif;
+    color:black ;
+    font-size:16px;
+}
+
+.finish{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    height:70vh;
+    width:70vw;
+    font-size:4.0rem; 
+}
+
+.start{
+    margin:20px;
+    padding:10px;
+    border-radius:30px;
+    border:none;
+    height:50px;
+    width:120px;
+    background-color:#FFB2B2 ;
+    font-family: "Times New Roman", Times, serif;
+    color:black ;
+    font-size:16px;
+}
+
+.hide{
+    display: none;
+}
+
+
